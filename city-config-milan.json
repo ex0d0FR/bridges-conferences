@@ -1,13 +1,13 @@
 {
-  "_comment": "BMB Conference System — City Config for Milan 2026. Fill in all TBD fields before running Cowork setup.",
-  "_last_updated": "2026-05-05",
+  "_comment": "BMB Conference System — City Config for Milan 2027. Fill in all TBD fields before running Cowork setup.",
+  "_last_updated": "2027-05-05",
   "_status": "DRAFT — dates, venue and local partner not yet confirmed",
 
   "conference": {
     "name": "Building Missionary Bridges",
-    "edition": "MILAN 2026",
+    "edition": "MILAN 2027",
     "tagline": "Bringing together pioneers, missiologists and ministers in the heart of Milan.",
-    "year": 2026,
+    "year": 2027,
     "duration_days": 4
   },
 
@@ -16,8 +16,8 @@
     "preferred_month": "TBD — not yet decided",
     "start_date": "TBD",
     "end_date": "TBD",
-    "early_bird_deadline": "TBD — suggested: 31 August 2026",
-    "website_launch_target": "TBD — suggested: March 2026",
+    "early_bird_deadline": "TBD — suggested: 31 August 2027",
+    "website_launch_target": "TBD — suggested: March 2027",
     "note": "Dates must be confirmed before Luma event page can be created."
   },
 
@@ -49,17 +49,17 @@
   },
 
   "domain": {
-    "url": "bridgesmilan2026.net",
+    "url": "bridgesmilan2027.net",
     "registered": false,
     "hosting": "Vercel",
-    "email_support": "info@bridgesmilan2026.net",
+    "email_support": "info@bridgesmilan2027.net",
     "note": "Domain not yet registered. Ask Cowork to check availability and register."
   },
 
   "luma": {
     "plan": "Luma Plus",
     "plan_cost_usd_per_month": 59,
-    "event_url": "lu.ma/milan2026",
+    "event_url": "lu.ma/milan2027",
     "event_created": false,
     "tickets": {
       "full_pass_early_bird": {
@@ -125,7 +125,7 @@
     "official_portal": "https://vistoperitalia.esteri.it/",
     "schengen_info": "https://www.schengenvisainfo.com/",
     "invitation_letter_available": true,
-    "invitation_letter_contact": "info@bridgesmilan2026.net",
+    "invitation_letter_contact": "info@bridgesmilan2027.net",
     "disclaimer": "Organizers are not responsible for visa costs, travel, accommodation, or medical expenses. Each participant covers their own costs."
   },
 
@@ -148,7 +148,7 @@
     "official": "Italian",
     "conference_languages": ["English", "Italian", "French", "Spanish"],
     "translation_available": true,
-    "translation_contact": "info@bridgesmilan2026.net"
+    "translation_contact": "info@bridgesmilan2027.net"
   },
 
   "weather_october_november": {
@@ -181,7 +181,7 @@
   },
 
   "marketing": {
-    "hashtags": ["#BuildingMissionaryBridges", "#Milan2026", "#MissionConference", "#MilanMission", "#ChristianConference", "#ConferenciaMisionera", "#ConferenzaMissionaria"],
+    "hashtags": ["#BuildingMissionaryBridges", "#Milan2027", "#MissionConference", "#MilanMission", "#ChristianConference", "#ConferenciaMisionera", "#ConferenzaMissionaria"],
     "social_platforms": ["Instagram", "Facebook", "X (Twitter)"],
     "email_platform": "MailerLite",
     "mailerlite_list_synced": false
@@ -201,12 +201,12 @@
 
   "cowork_next_actions": [
     "Confirm conference dates (month TBD) — populate dates.start_date and dates.end_date",
-    "Register domain bridgesmilan2026.net once dates are confirmed",
+    "Register domain bridgesmilan2027.net once dates are confirmed",
     "Find top 5 evangelical or Protestant churches in Milan that can host 600–2000 people — populate venue block",
     "Identify local Italian partner church — populate organizing_team.local_partner_church",
     "Create Luma Plus event page once dates and venue are confirmed",
     "Send speaker invitation letters to returning speakers (Alvarez, Stefan, Adelaja, Nyamekye)",
-    "Generate Milan 2026 budget model based on confirmed venue cost",
+    "Generate Milan 2027 budget model based on confirmed venue cost",
     "Generate social media posts in EN, IT, FR, ES",
     "Set up MailerLite email sequence for Milan"
   ]
