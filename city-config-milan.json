@@ -1,0 +1,213 @@
+{
+  "_comment": "BMB Conference System — City Config for Milan 2026. Fill in all TBD fields before running Cowork setup.",
+  "_last_updated": "2026-05-05",
+  "_status": "DRAFT — dates, venue and local partner not yet confirmed",
+
+  "conference": {
+    "name": "Building Missionary Bridges",
+    "edition": "MILAN 2026",
+    "tagline": "Bringing together pioneers, missiologists and ministers in the heart of Milan.",
+    "year": 2026,
+    "duration_days": 4
+  },
+
+  "dates": {
+    "confirmed": false,
+    "preferred_month": "TBD — not yet decided",
+    "start_date": "TBD",
+    "end_date": "TBD",
+    "early_bird_deadline": "TBD — suggested: 31 August 2026",
+    "website_launch_target": "TBD — suggested: March 2026",
+    "note": "Dates must be confirmed before Luma event page can be created."
+  },
+
+  "location": {
+    "city": "Milan",
+    "country": "Italy",
+    "country_code": "IT",
+    "region": "Lombardy",
+    "timezone": "Europe/Rome",
+    "timezone_offset": "UTC+1 (CET) / UTC+2 (CEST in summer)"
+  },
+
+  "venue": {
+    "type_preference": "Church or religious venue",
+    "confirmed": false,
+    "name": "TBD",
+    "address": "TBD",
+    "neighborhood": "TBD",
+    "capacity_min": 600,
+    "capacity_max": 2000,
+    "website": "TBD",
+    "contact_name": "TBD",
+    "contact_email": "TBD",
+    "contact_phone": "TBD",
+    "contract_signed": false,
+    "av_included": "TBD",
+    "catering_allowed": "TBD",
+    "note": "Preference: church or religious venue with 600–2000 capacity, accessible by metro. Ask Cowork: find evangelical or Protestant churches in Milan that host large conferences."
+  },
+
+  "domain": {
+    "url": "bridgesmilan2026.net",
+    "registered": false,
+    "hosting": "Vercel",
+    "email_support": "info@bridgesmilan2026.net",
+    "note": "Domain not yet registered. Ask Cowork to check availability and register."
+  },
+
+  "luma": {
+    "plan": "Luma Plus",
+    "plan_cost_usd_per_month": 59,
+    "event_url": "lu.ma/milan2026",
+    "event_created": false,
+    "tickets": {
+      "full_pass_early_bird": {
+        "price_eur": 60,
+        "label": "Full Pass — Early Bird",
+        "available_until": "TBD — same as early_bird_deadline",
+        "includes": ["Full conference access (all 4 days)", "All workshops", "Networking sessions", "Coffee breaks", "Conference materials"]
+      },
+      "full_pass_regular": {
+        "price_eur": 80,
+        "label": "Full Pass",
+        "includes": ["Full conference access (all 4 days)", "All workshops", "Networking sessions", "Coffee breaks", "Conference materials"]
+      },
+      "full_pass_accommodation": {
+        "price_eur": 255,
+        "label": "Full Pass + Accommodation",
+        "includes": ["Full conference access (all 4 days)", "On-site accommodation (3 nights)", "Breakfast included", "Lunches included", "All workshops", "Conference materials"]
+      },
+      "evening_pass": {
+        "price_eur": 20,
+        "label": "Evening Pass",
+        "includes": ["Night access to conference (all 4 evenings)"]
+      }
+    },
+    "stripe_connected": false,
+    "luma_widget_embedded": false
+  },
+
+  "transport": {
+    "airports": [
+      {
+        "code": "MXP",
+        "name": "Milan Malpensa Airport",
+        "type": "Main international airport",
+        "distance_to_center_km": 45,
+        "transfer_options": ["Malpensa Express train (30 min to Cadorna)", "Bus", "Taxi/ride-share"]
+      },
+      {
+        "code": "LIN",
+        "name": "Milan Linate Airport",
+        "type": "City airport — short-haul",
+        "distance_to_center_km": 8,
+        "transfer_options": ["Metro M4 line (15 min to centre)", "Bus", "Taxi"]
+      },
+      {
+        "code": "BGY",
+        "name": "Bergamo Orio al Serio Airport",
+        "type": "Budget airlines (Ryanair hub)",
+        "distance_to_center_km": 50,
+        "transfer_options": ["Bus to Milan Central Station (60 min)"]
+      }
+    ],
+    "main_train_station": "Milano Centrale",
+    "metro_lines": ["M1 (Red)", "M2 (Green)", "M3 (Yellow)", "M4 (Blue — newest)"],
+    "transport_pass": "ATM 24/48/72-hour passes recommended for attendees"
+  },
+
+  "visa": {
+    "type": "Schengen Short-Stay Visa (Type C)",
+    "schengen_country": "Italy",
+    "issuing_authority": "Italian Embassy or Consulate in country of residence",
+    "max_stay_days": 90,
+    "official_portal": "https://vistoperitalia.esteri.it/",
+    "schengen_info": "https://www.schengenvisainfo.com/",
+    "invitation_letter_available": true,
+    "invitation_letter_contact": "info@bridgesmilan2026.net",
+    "disclaimer": "Organizers are not responsible for visa costs, travel, accommodation, or medical expenses. Each participant covers their own costs."
+  },
+
+  "emergency_numbers": {
+    "general_emergency": "112",
+    "police": "113",
+    "fire": "115",
+    "medical": "118",
+    "ambulance": "118"
+  },
+
+  "currency": {
+    "code": "EUR",
+    "symbol": "€",
+    "tax_name": "IVA (Imposta sul Valore Aggiunto)",
+    "standard_tax_rate_pct": 22
+  },
+
+  "language": {
+    "official": "Italian",
+    "conference_languages": ["English", "Italian", "French", "Spanish"],
+    "translation_available": true,
+    "translation_contact": "info@bridgesmilan2026.net"
+  },
+
+  "weather_october_november": {
+    "avg_temp_c": "10–16°C",
+    "avg_temp_f": "50–61°F",
+    "conditions": "Cool, occasional rain. Layers recommended.",
+    "what_to_pack": ["Light jacket or coat", "Umbrella", "Comfortable walking shoes", "Layers"]
+  },
+
+  "organizing_team": {
+    "lead_organization": "TBD — local Italian partner church needed",
+    "co_organizer": "Église Kerygma (Paris)",
+    "global_sponsor": "Global Council of Mission",
+    "local_partner_church": "TBD",
+    "local_partner_contact": "TBD",
+    "main_contact_email": "TBD",
+    "main_contact_phone": "TBD"
+  },
+
+  "speakers": {
+    "confirmed": [],
+    "invited_returning": [
+      "Dr. Obed Alvarez",
+      "Dr. Stefan",
+      "Dr. Sunday Adelaja",
+      "Apôtre Eric Nyamekye"
+    ],
+    "target_total": 14,
+    "call_for_speakers_open": false
+  },
+
+  "marketing": {
+    "hashtags": ["#BuildingMissionaryBridges", "#Milan2026", "#MissionConference", "#MilanMission", "#ChristianConference", "#ConferenciaMisionera", "#ConferenzaMissionaria"],
+    "social_platforms": ["Instagram", "Facebook", "X (Twitter)"],
+    "email_platform": "MailerLite",
+    "mailerlite_list_synced": false
+  },
+
+  "budget": {
+    "currency": "EUR",
+    "venue_estimated": "TBD",
+    "catering_per_person_estimated": "TBD",
+    "speaker_travel_estimated": "TBD",
+    "marketing_budget_estimated": "TBD",
+    "av_equipment_estimated": 2000,
+    "contingency_pct": 10,
+    "luma_plus_annual_cost_usd": 708,
+    "note": "Ask Cowork to generate full budget model once venue and attendance target are confirmed."
+  },
+
+  "cowork_next_actions": [
+    "Confirm conference dates (month TBD) — populate dates.start_date and dates.end_date",
+    "Register domain bridgesmilan2026.net once dates are confirmed",
+    "Find top 5 evangelical or Protestant churches in Milan that can host 600–2000 people — populate venue block",
+    "Identify local Italian partner church — populate organizing_team.local_partner_church",
+    "Create Luma Plus event page once dates and venue are confirmed",
+    "Send speaker invitation letters to returning speakers (Alvarez, Stefan, Adelaja, Nyamekye)",
+    "Generate Milan 2026 budget model based on confirmed venue cost",
+    "Generate social media posts in EN, IT, FR, ES",
+    "Set up MailerLite email sequence for Milan"
+  ]
+}
